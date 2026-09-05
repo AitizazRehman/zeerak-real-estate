@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZeeraK Real Estate & Builders | Property in Rawalpindi</title>
+  <meta name="description" content="ZeeraK Real Estate & Builders helps you buy, sell and find property in Rawalpindi, Pakistan. Contact us on WhatsApp for property inquiries.">
+  <meta name="keywords" content="real estate Rawalpindi, property Rawalpindi, houses for sale Rawalpindi, plots Rawalpindi, ZeeraK Real Estate">
+  <meta name="author" content="ZeeraK Real Estate & Builders">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://zeerakrealestateandbuilders.com/">
+  <meta property="og:title" content="ZeeraK Real Estate & Builders">
+  <meta property="og:description" content="Property buying, selling and real estate services in Rawalpindi, Pakistan.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zeerakrealestateandbuilders.com/">
+  <meta name="theme-color" content="#165134">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23165134'/%3E%3Cpath d='M22 52 50 28l28 24v25H60V60H40v17H22z' fill='white'/%3E%3C/svg%3E">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"RealEstateAgent",
+    "name":"ZeeraK Real Estate & Builders",
+    "url":"https://zeerakrealestateandbuilders.com/",
+    "telephone":"+923439997718",
+    "areaServed":"Rawalpindi, Pakistan"
+  }
+  </script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#home">
+      <span class="brand-mark"><i class="bi bi-buildings"></i></span>
+      <span>ZeeraK <small>REAL ESTATE & BUILDERS</small></span>
+    </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#properties">Properties</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="btn btn-whatsapp ms-lg-2" target="_blank" href="https://wa.me/923439997718"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container position-relative">
+    <div class="row align-items-center min-vh-100">
+      <div class="col-lg-8">
+        <span class="eyebrow">RAWALPINDI • PAKISTAN</span>
+        <h1>Find the place where your <span>future begins.</span></h1>
+        <p class="lead">Professional real estate and property services for buyers, sellers and investors.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#properties" class="btn btn-primary btn-lg">Explore Properties <i class="bi bi-arrow-right"></i></a>
+          <a href="https://wa.me/923439997718?text=Hello%20ZeeraK%20Real%20Estate%2C%20I%20am%20interested%20in%20a%20property." target="_blank" class="btn btn-outline-light btn-lg"><i class="bi bi-whatsapp"></i> Get Property Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="search-wrap">
+  <div class="container">
+    <div class="search-card">
+      <div>
+        <span class="text-muted small">PROPERTY SEARCH</span>
+        <h3 class="mb-0">What are you looking for?</h3>
+      </div>
+      <select id="typeFilter" class="form-select">
+        <option value="all">All Property Types</option>
+        <option value="House">House</option>
+        <option value="Plot">Plot</option>
+        <option value="Commercial">Commercial</option>
+      </select>
+      <select id="locationFilter" class="form-select">
+        <option value="all">All Locations</option>
+        <option value="Rawalpindi">Rawalpindi</option>
+        <option value="Islamabad">Islamabad</option>
+      </select>
+      <button class="btn btn-primary" onclick="filterProperties()">Search <i class="bi bi-search"></i></button>
+    </div>
+  </div>
+</section>
+
+<section id="properties" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <div><span class="eyebrow dark">PROPERTY LISTINGS</span><h2>Featured Properties</h2></div>
+      <span class="muted">Listings will be updated as properties become available.</span>
+    </div>
+    <div id="propertyGrid" class="row g-4">
+      <div class="col-12">
+        <div class="empty-listing">
+          <div class="empty-icon"><i class="bi bi-house-check"></i></div>
+          <h4>New property listings coming soon</h4>
+          <p>We are currently preparing our verified property listings. Contact us directly for houses, plots and commercial property available in Rawalpindi.</p>
+          <a class="btn btn-primary" target="_blank" href="https://wa.me/923439997718?text=Hello%20ZeeraK%20Real%20Estate%2C%20please%20share%20your%20available%20properties.">Ask for Available Properties</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section section-light">
+  <div class="container">
+    <div class="text-center section-intro">
+      <span class="eyebrow dark">OUR SERVICES</span>
+      <h2>Real Estate, Made Simpler.</h2>
+      <p>Whether you are buying, selling or exploring an investment opportunity, we help you move forward with confidence.</p>
+    </div>
+    <div class="row g-4 mt-3">
+      <div class="col-md-4"><div class="service-card"><i class="bi bi-house-heart"></i><h4>Buy Property</h4><p>Find a property that matches your requirements, location and budget.</p></div></div>
+      <div class="col-md-4"><div class="service-card"><i class="bi bi-tag"></i><h4>Sell Property</h4><p>Get support in presenting and connecting your property with potential buyers.</p></div></div>
+      <div class="col-md-4"><div class="service-card"><i class="bi bi-graph-up-arrow"></i><h4>Property Investment</h4><p>Explore property opportunities and discuss your investment requirements with us.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="about-visual">
+          <div class="building-card"><i class="bi bi-buildings"></i><span>ZeeraK</span></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <span class="eyebrow dark">ABOUT ZEERAK</span>
+        <h2>Property decisions with a professional approach.</h2>
+        <p>ZeeraK Real Estate & Builders is a Rawalpindi-based real estate business focused on helping clients with property buying, selling and investment requirements.</p>
+        <p>Our website is designed to keep property information clear and make it easy for clients to contact us directly for current availability.</p>
+        <div class="check-list">
+          <div><i class="bi bi-check-circle-fill"></i> Property-focused assistance</div>
+          <div><i class="bi bi-check-circle-fill"></i> Direct WhatsApp communication</div>
+          <div><i class="bi bi-check-circle-fill"></i> Local Rawalpindi market focus</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-card">
+      <div><span class="eyebrow">READY TO TALK?</span><h2>Tell us what property you need.</h2><p>Send your requirements and we will get back to you on WhatsApp.</p></div>
+      <a target="_blank" class="btn btn-light btn-lg" href="https://wa.me/923439997718?text=Hello%20ZeeraK%20Real%20Estate%2C%20I%20want%20to%20discuss%20a%20property."><i class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section section-light">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <span class="eyebrow dark">CONTACT</span>
+        <h2>Let's discuss your property needs.</h2>
+        <p class="text-muted">For current listings, buying, selling or investment inquiries, contact ZeeraK directly.</p>
+        <div class="contact-item"><span><i class="bi bi-whatsapp"></i></span><div><small>WhatsApp / Phone</small><strong>0343 9997718</strong></div></div>
+        <div class="contact-item"><span><i class="bi bi-geo-alt"></i></span><div><small>Service Area</small><strong>Rawalpindi, Pakistan</strong></div></div>
+      </div>
+      <div class="col-lg-7">
+        <div class="contact-card">
+          <h4>Send an inquiry</h4>
+          <form id="contactForm">
+            <div class="row g-3">
+              <div class="col-md-6"><input id="name" class="form-control" placeholder="Your name" required></div>
+              <div class="col-md-6"><input id="phone" class="form-control" placeholder="Phone number" required></div>
+              <div class="col-12"><select id="interest" class="form-select"><option>Buying a property</option><option>Selling a property</option><option>Property investment</option><option>General inquiry</option></select></div>
+              <div class="col-12"><textarea id="message" class="form-control" rows="5" placeholder="Tell us your requirements"></textarea></div>
+              <div class="col-12"><button class="btn btn-primary w-100" type="submit">Send via WhatsApp <i class="bi bi-arrow-right"></i></button></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-lg-6"><div class="footer-brand"><span class="brand-mark"><i class="bi bi-buildings"></i></span><strong>ZeeraK Real Estate & Builders</strong></div><p>Professional property services in Rawalpindi, Pakistan.</p></div>
+      <div class="col-lg-3"><h6>QUICK LINKS</h6><a href="#properties">Properties</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+      <div class="col-lg-3"><h6>CONTACT</h6><a href="tel:+923439997718">0343 9997718</a><a target="_blank" href="https://wa.me/923439997718">WhatsApp</a></div>
+    </div>
+    <hr><div class="d-flex justify-content-between flex-wrap gap-2 small"><span>© 2026 ZeeraK Real Estate & Builders. All rights reserved.</span><span>Rawalpindi, Pakistan</span></div>
+  </div>
+</footer>
+
+<a class="floating-wa" target="_blank" href="https://wa.me/923439997718"><i class="bi bi-whatsapp"></i></a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
